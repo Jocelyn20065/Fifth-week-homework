@@ -1,0 +1,79 @@
+
+
+// bootstrap default value as below. 
+// 0 - for classes that eliminate the margin or padding by setting it to 0
+// 1 - (by default) for classes that set the margin or padding to $spacer * .25  --> 16*.25=4
+// 2 - (by default) for classes that set the margin or padding to $spacer * .5 -->16*.5=8
+// 3 - (by default) for classes that set the margin or padding to $spacer -->16
+// 4 - (by default) for classes that set the margin or padding to $spacer * 1.5 -->16*1.5=24
+// 5 - (by default) for classes that set the margin or padding to $spacer * 3 --> 48
+// auto - for classes that set the margin to auto
+
+// h1 Bootstrap heading (2.5rem = 40px)
+// h2 Bootstrap heading (2rem = 32px)
+// h3 Bootstrap heading (1.75rem = 28px)
+// h4 Bootstrap heading (1.5rem = 24px)
+// h5 Bootstrap heading (1.25rem = 20px)
+// h6 Bootstrap heading (1rem = 16px)
+
+
+
+// customized padding & margin:16px is the basic value of spacing for this assignment, which is not included in the bootstrap default value.
+
+.s-pr{
+    padding-right: 16px;
+}
+.s-mr{
+    padding-right: 16px;
+}
+.s-pl{
+    padding-left: 16px;
+}
+
+.m-p{
+    padding:32px;
+}
+.m-pt{
+    padding-top: 32px;
+}
+.lg-pt{
+    padding-top: 37px;
+}
+.m-pl{
+    padding-left: 32px;
+}
+.m-pb{
+    padding-bottom: 29px;
+}
+.m-ml{
+    margin-left: 32px;
+}
+.m-mr{
+    margin-right: 32px;
+}
+.s-fz{
+    font-size: 14px;
+}
+.xs-fz{
+    font-size: 12px;
+}
+.gray{
+    color: #212529;
+}
+.light-gray{
+    color: #6C757D;
+}
+
+.btn-spec{
+    line-height: 1;
+}
+
+.btn-white{
+    border:$gray 1px solid;
+    &:hover{
+        cursor: pointer;
+        background: $mcolor;
+        color: #fff;
+    }
+
+}

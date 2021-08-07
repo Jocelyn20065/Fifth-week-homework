@@ -1,0 +1,162 @@
+---
+title: 首頁
+layout: ./app/layout.ejs
+engine: ejs
+current: index
+---
+<div class="main">
+    <div class="nav d-flex justify-content-between">
+        <div class="nav-topic d-flex align-items-center">
+            <h3 class="m-p fw-bold">Assignment</h3>
+            <div class="dropdown">
+                <button class="btn btn-spe dropdown-toggle fs-5" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Course
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">course 1</a></li>
+                  <li><a class="dropdown-item" href="#">course 2</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+        </div>
+        <ul class="nav-topic-tooling d-flex lg-pt">
+            <li class="pe-4 "><a href="#" class="link-dark"><span class="material-icons">
+                search</span></a></li>
+            <li><a href="#" class="link-dark"><span class="material-icons">
+                notifications_active</span></a></li>
+        </ul>
+    </div>
+    <div class="main-content m-ml d-flex mb-3 ">
+        <div class="content-list s-mr">
+            <div class="dropdown">
+                <button class="btn inline-block dropdown-toggle fs-6" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  All (4)
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">course 1</a></li>
+                  <li><a class="dropdown-item" href="#">course 2</a></li>
+                  <li><a class="dropdown-item" href="#">course 3</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+            <ul class="list-group">
+                <li class=""><a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" >
+                 <div class="list-details">
+                    <h4 class="xs-fz gray">Chapter Assignment 2<br><span class="fs-6 fw-bold">Please check this file…</span></h4>  
+                 </div>
+                 <div class="list-edited-info">
+                     <h4 class="xs-fz">4 hrs ago<span class="light-gray"><br>Emily Wang</span></h4>
+                 </div>
+                </a></li>
+                <li class=""><a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" >
+                    <div class="list-details">
+                        <h4 class="xs-fz gray">Chapter Assignment 1<br><span class="fs-6 fw-bold">My Homework</span></h4>  
+                    </div>
+                    <div class="list-edited-info">
+                        <h4 class="xs-fz">4 hrs ago<span class="light-gray"><br>Emily Wang</span></h4>
+                    </div>
+                   </a></li>
+                 <li class=""><a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" >
+                    <div class="list-details">
+                        <h4 class="xs-fz gray">Final Assignment<br><span class="fs-6 fw-bold">Have a problem with this…</span></h4>
+                    </div>
+                    <div class="list-edited-info">
+                        <h4 class="xs-fz gray">18 hrs ago<span class="light-gray"><br>Tony Wei</span></h4>
+                    </div>
+                   </a></li>
+                <li class=""><a href="#" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" >
+                    <div class="list-details">
+                        <h4 class="xs-fz gray">Final Assignment<br><span class="fs-6 fw-bold">Did I do it right?</span></h4>  
+                    </div>
+                    <div class="list-edited-info">
+                        <h4 class="xs-fz">19 hrs ago<span class="light-gray"><br>Christina Lin</span></h4>
+                    </div>
+                   </a></li>
+            </ul>
+        </div>
+        <div class="content-details">
+            <h5 class="text-right inline-block light-gray xs-fz mt-3 mb-2">2 comments</h5>
+            <div class="card text-dark mb-4" >
+                <div class="card-header d-flex justify-content-between align-items-center"><h4 class="fs-6 font-weight-bold mb-0"><span class="xs-fz">Chapter Assignment 2 / HTML&CSS</span> <br> Please check this file for me, thanks!</h4> <span class="material-icons">
+                    menu
+                    </span></div>
+               
+                <ul class="card-body ">
+                    <li>
+                        <div class="potrait-area d-flex">
+                            <div class="potrait me-2"></div>
+                            <h4 class="card-title fs-6">Emily Wang<span class="xs-fz light-gray"> <br> 10:38 AM (4 hours ago)</span></h4>
+                        </div>
+                        <p class="card-text ps-5 pe-3">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the span class="text-success bg-light">img</span>  ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+                        <a href="#"class="btn btn-white ms-5 font-weight-bold"  download="HW-2-David.zip"> 
+                            <span class="material-icons align-middle pe-2">
+                            attach_file</span> HW-2-David.zip
+                        </a>
+                    </li>
+                    <li class="line ms-5 me-3 mt-3"></li>
+                    <li>
+                        <div class="edit-mode d-flex vertical-align-center justify-content-between mt-3">
+                            <div class="potrait-area d-flex ">
+                                <div class="potrait2 me-2"></div>
+                                <h4 class="card-title fs-6">Andy Chen (You)<span class="xs-fz light-gray"> <br> 13:24   AM (1 hours ago)</span></h4>
+                            </div>
+                            <div class="card-tooling">
+                                <span class="material-icons">
+                                star_outline
+                                </span>
+                                <span class="material-icons">
+                                edit
+                                </span>
+                        </div>
+                        </div>
+                        <p class="card-text ps-5 pe-3">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can: <br> 　• adjust the <span class="text-success bg-light"> vertical-align</span> of the image to position it elsewhere (e.g. the <span class="text-success bg-light">middle</span>  ) or <br>　• change the <span class="text-success bg-light">display</span>  so it isn’t inline.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="assignment-footer d-flex justify-content-between">
+                <nav aria-label="pagination">
+                    <ul class="pagination">
+                        <li class="page-item" aria-label="Next"><a class="page-link page-link-style" href="#">  
+                        <span class="material-icons align-middle" aria-label="Previous">
+                            arrow_back_ios
+                        </span>
+                        </a>
+                      </li>
+                      <li class="page-item" aria-label="Next"><a class="page-link page-link-style" href="#"><span class="material-icons align-middle">
+                        arrow_forward_ios
+                        </span></a></li>
+                    </ul>
+                </nav>
+                <div class="collapse" id="collapseExample">
+                    <!-- collapse:點擊開啟/收起 -->
+                    <div class="card card-body position-absolute ckeditor ">
+                        <!-- ckeditor as below -->
+                        <div id="editor" class="editor h-100" >This is some sample content.</div>
+                        <!--reply buton -->
+                        <div class="reply position-absolute editorBtnPosition">
+                            <p>
+                                <a class="btn btn-outline-success py-1 px-4" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" data-bs-dismiss="modal">
+                                cancel
+                                 </a>
+                                <button class="btn btn-success py-1 px-4 ms-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                 Reply
+                                 </button> 
+                            </p>
+                         </div>
+                    </div>
+                </div>
+                <div class="reply position-relative">
+                    <p>
+                        <a class="btn btn-outline-success py-1 px-4" >
+                            Mark as read
+                            </a>
+                            <button class="btn btn-success py-1 px-4 ms-3 me-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Reply
+                            </button>  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

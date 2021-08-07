@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title><%- title %></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+  <link rel="stylesheet" href="./assets/style/all.css">
+  
+</head>
+
+<body>
+  <div class="wrap d-flex">
+    <div class="sidebars d-flex flex-column justify-content-between">
+      <div class="sidebar-list">
+        <h1 class="m-ml"></h1>
+        <ul class="sidebars-list-info fs-6 ps-0 ">
+         <li class="m-pb">
+            <a href="#" ariea-label="Dashboard" class="link-dark m-pl">
+            <span class="material-icons s-pr align-middle">
+            dashboard
+            </span>
+          Dashboard</a>
+          </li>
+          <li  class="m-pb">
+            <a href="#" ariea-label="Question" class="link-dark m-pl">
+            <span class="material-icons s-pr align-middle">
+              question_answer
+              </span>Question</a>
+          </li>
+          <li  class="m-pb">
+            <a href="#"ariea-label="Assignment" class="link-dark m-pl">
+            <span class="material-icons s-pr align-middle">
+              assignment
+              </span>
+            Assignment</a>
+          </li>
+          <li  class="m-pb">
+            <a href="#" ariea-label="Cousre" class="link-dark m-pl">
+            <span class="material-icons s-pr align-middle">
+              cast_for_education
+              </span>
+            Course</a>
+          </li>
+          <li  class="m-pb">
+            <a href="#" ariea-label="Admin" class="link-dark m-pl">
+            <span class="material-icons s-pr align-middle">
+              admin_panel_settings
+              </span>
+            Admin</a>
+          </li>
+          <li  class="m-pb">
+            <a href="#" ariea-label="Settings" class="link-dark m-pl">
+            <span class="material-icons s-pr align-middle">
+              settings
+              </span>
+            Settings</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sidebars-autor d-flex">
+        <div class="portrait ms-4 align-center"></div>
+        <p class="s-fz s-pl">Andy Chen <br><span class="text-muted">andy0401@mail.com</span></p>
+      </div>
+    </div>
+    <%- contents %>
+  </div>
+
+
+  <footer class="footer">
+
+  </footer>
+
+  <script>
+    ClassicEditor
+      .create( document.querySelector( '#editor' ) )
+      .then( editor => {
+      console.log( editor );
+    } )
+      .catch( error => {
+      console.error( error );
+    } );
+  </script>
+
+
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+
+</html>
