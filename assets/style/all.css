@@ -1,0 +1,143 @@
+body {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+ul {
+  list-style: none; }
+
+.s-pr {
+  padding-right: 16px; }
+
+.s-mr {
+  padding-right: 16px; }
+
+.s-pl {
+  padding-left: 16px; }
+
+.m-p {
+  padding: 32px; }
+
+.m-pt {
+  padding-top: 32px; }
+
+.lg-pt {
+  padding-top: 37px; }
+
+.m-pl {
+  padding-left: 32px; }
+
+.m-pb {
+  padding-bottom: 29px; }
+
+.m-ml {
+  margin-left: 32px; }
+
+.m-mr {
+  margin-right: 32px; }
+
+.s-fz {
+  font-size: 14px; }
+
+.xs-fz {
+  font-size: 12px; }
+
+.gray {
+  color: #212529; }
+
+.light-gray {
+  color: #6C757D; }
+
+.btn-spec {
+  line-height: 1; }
+
+.btn-white {
+  border: #CED4DA 1px solid; }
+  .btn-white:hover {
+    cursor: pointer;
+    background: #198754;
+    color: #fff; }
+
+.sidebars {
+  background: #F8F9FA;
+  width: 24.8%; }
+
+h1 {
+  background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week5/logo-ANSWER.svg");
+  width: 151px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 0 34px 0; }
+
+.sidebars-list-info li a {
+  text-decoration: none;
+  border-left: 3px solid transparent; }
+  .sidebars-list-info li a:hover {
+    color: #198754;
+    border-left: 3px solid #198754; }
+
+.sidebars-autor .portrait {
+  width: 40px;
+  height: 40px;
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true");
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block; }
+
+.main {
+  max-width: 984px;
+  margin: 0 auto; }
+
+.nav-topic-tooling a:hover {
+  color: #198754; }
+
+.content-list {
+  width: 35%; }
+
+.content-details {
+  width: 59%; }
+  .content-details h5 {
+    text-align: right; }
+
+.card-header h4 {
+  font-weight: bold; }
+
+.card-body .potrait {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emilywang.jpeg?raw=true");
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%; }
+
+.card-body .potrait2 {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true");
+  width: 40px;
+  height: 40px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%; }
+
+.card-body .line {
+  border-bottom: 1px solid #CED4DA; }
+
+.pagination .page-link-style {
+  color: #000;
+  border: none; }
+
+.ckeditor {
+  bottom: -120px;
+  right: 115px;
+  width: 570px;
+  height: 380px;
+  z-index: 1; }
+
+.ck-editor__editable {
+  min-height: 250px; }
+
+.editorBtnPosition {
+  bottom: 0;
+  right: 20px; }
+
+/*# sourceMappingURL=all.css.map */
